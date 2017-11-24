@@ -24,6 +24,7 @@ def eval(keys, predictions):
     print(numTruePositives, " of which were correct.")
     
     print("Precision: ", precision, "Recall: ", recall, "F1-measure: ", f1)
+    print "|" + "|".join(map(str, [numEntities, numReturned, numTruePositives, precision, recall, f1])) + "|"
 
 def findEntities(data):
     """ Find all the IOB delimited entities in the data.  Return as a set of (begin, end) tuples. Data is sequence of word, tag pairs. """
