@@ -7,10 +7,11 @@ article abstracts. Different approaches tested out and corresponding result.
 
 - [HMM with Part-of-Speech tags as feature][1]: `Precision: 0.23398, Recall: 0.07705, F-1 Score: 0.11593`
 - [HMM (NLTK) with Part-of-Speech tags as feature][2]: `Precision: 0.24539, Recall: 0.07542, F-1 Score: 0.11886`
+- [HMM (NLTK) with Words from Vocab as features][3] : `Precision: 0.54508, Recall: 0.41617, F-1 Score: 0.47198`
 
 ## MaxEnt - Based
 
-- [MaxEnt with features as follow][3]: `Precision: 0.59823, Recall: 0.45590, F-1 Score:  	0.51746`
+- [MaxEnt with features as follow][4]: `Precision: 0.59823, Recall: 0.45590, F-1 Score:  	0.51746`
   - Part-of-Speech : Current, Previous and Next
   - Word: Current, Previous and Next
   - Word Shape: Current, Previous and Next
@@ -22,4 +23,5 @@ article abstracts. Different approaches tested out and corresponding result.
 
 [1]:https://github.com/Hasil-Sharma/Named-Entity-Recognition/blob/45c7d5497614e99391cec98e2ad198a43790cfc5/Named%20Entity%20Recognition.ipynb
 [2]:https://github.com/Hasil-Sharma/Named-Entity-Recognition/blob/fc24d20f5b3fe4d7552d31a93bfc0eac62b63ce1/Named%20Entity%20Recognition.ipynb
-[3]:https://github.com/Hasil-Sharma/Named-Entity-Recognition/blob/9f58a643c305b26f56b610451b6d35e2a4d67d88/Named%20Entity%20Recognition.ipynb
+[3]: https://github.com/Hasil-Sharma/Named-Entity-Recognition/blob/fff50eb1b957572374f2108ee2c1fa4379907bde/Named%20Entity%20Recognition.ipynb
+[4]:https://github.com/Hasil-Sharma/Named-Entity-Recognition/blob/9f58a643c305b26f56b610451b6d35e2a4d67d88/Named%20Entity%20Recognition.ipynb
