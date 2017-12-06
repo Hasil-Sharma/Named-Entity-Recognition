@@ -2,7 +2,7 @@
 
 A learning based approach to named entity recognition to find all the references to genes in a set of biomedical journal
 article abstracts. Different approaches tested out and corresponding result.
-
+Finally Used MaxEnt with contextual features and achieved `F-1 Score: > 0.60`
 ## HMM - Based
 
 - [HMM with Part-of-Speech tags as feature][1]: `Precision: 0.23398, Recall: 0.07705, F-1 Score: 0.11593`
